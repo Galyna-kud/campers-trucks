@@ -1,0 +1,32 @@
+.btn {
+  display: block;
+  text-align: center;
+  padding: 8px 16px;
+  background-color: #829b91;
+  border: none;
+  border-radius: 200px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+  color: #fff;
+
+  min-width: 110px;
+  min-height: 48px;
+  cursor: pointer;
+  transition: background-color 250ms ease;
+}
+
+@media only screen and (min-width: 768px) {
+  .btn {
+    min-width: 145px;
+    min-height: 56px;
+    padding: 16px 32px;
+  }
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #6d7b75;
+}

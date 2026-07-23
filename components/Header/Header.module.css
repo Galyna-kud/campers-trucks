@@ -1,0 +1,89 @@
+.header {
+  border-bottom: 1px solid #f2f4f7;
+  background-color: #f7f7f7;
+}
+
+.headerContainer {
+  max-width: 375px;
+  display: flex;
+  align-items: center;
+  padding: 16px 24px;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 768px) {
+  .headerContainer {
+    max-width: 768px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .headerContainer {
+    max-width: 1440px;
+    padding: 24px 64px;
+  }
+}
+
+.btnBurger {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .btnBurger {
+    display: none;
+  }
+}
+.burgerIcon {
+  display: block;
+  width: 20px;
+  height: 20px;
+  color: #101828;
+}
+
+@media only screen and (min-width: 768px) {
+  .burgerIcon {
+    display: none;
+  }
+}
+.headerNav {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .headerNav {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .headerNav {
+    margin-right: auto;
+  }
+}
+.headerList {
+  display: flex;
+  gap: 32px;
+}
+
+.headerLink {
+  font-weight: 500;
+  transition: color, 250ms, ease;
+}
+
+.headerLink:hover,
+.headerLink:focus {
+  color: #829b91;
+}
+
+.logo {
+  margin-right: auto;
+}
+
+.activeLink {
+  color: #829b91;
+}

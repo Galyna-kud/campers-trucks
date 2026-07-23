@@ -1,0 +1,26 @@
+.btnClose {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: transparent;
+  padding: 0;
+  border: none;
+
+  position: absolute;
+  top: 16px;
+  right: 24px;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 1440px) {
+  .btnClose {
+    display: none;
+  }
+}
+
+.closeIcon {
+  width: 28px;
+  height: 28px;
+  color: #101828;
+}

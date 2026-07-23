@@ -1,0 +1,53 @@
+.mobileMenu {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+  padding: 0 20px;
+
+  background-color: #f7f7f7;
+
+  z-index: 999;
+  pointer-events: initial;
+  transform: translateX(100%);
+  transition: transform 300ms ease;
+}
+
+.mobileMenu.isOpen {
+  transform: translateX(0);
+  pointer-events: auto;
+}
+
+@media only screen and (min-width: 768px) {
+  .mobileMenu {
+    display: none;
+  }
+}
+
+.container {
+  max-width: 375px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.menuList {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.menuLink {
+  font-size: 20px;
+}
+
+.menuLink:focus {
+  color: #829b91;
+}
+
+.logo {
+  margin-bottom: 24px;
+  display: block;
+}

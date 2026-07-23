@@ -1,0 +1,70 @@
+/* Gallery.module.css */
+
+@media only screen and (min-width: 1440px) {
+  .container {
+    width: 100%;
+    max-width: 638px;
+  }
+}
+
+.mainSwiper {
+  border-radius: 17px;
+  margin-bottom: 16px;
+
+  width: 100%;
+  aspect-ratio: 638 / 505;
+}
+
+@media only screen and (min-width: 1440px) {
+  .mainSwiper {
+    margin-bottom: 27px;
+  }
+}
+
+.mainSwiper :global(.swiper-slide) {
+  width: 100%;
+  height: 100%;
+}
+
+.mainSwiper :global(.swiper-slide) img {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+.mainSwiper :global(.swiper-button-next),
+.mainSwiper :global(.swiper-button-prev) {
+  color: #ffffff;
+  height: 24px;
+  width: auto;
+  transition: color 300ms ease;
+}
+
+.mainSwiper :global(.swiper-button-next:hover),
+.mainSwiper :global(.swiper-button-prev:hover) {
+  color: #829b91;
+}
+
+.thumbSwiper {
+  width: 100%;
+}
+
+.thumbImgWrapper {
+  border-radius: 16px;
+  overflow: hidden;
+  position: relative;
+  aspect-ratio: 136 / 144;
+}
+
+.thumbImg {
+  object-fit: cover;
+  border-radius: 16px;
+  width: 100%;
+  height: 100%;
+}
+
+.thumbSwiper :global(.swiper-slide-thumb-active) .thumbImgWrapper {
+  outline: 3px solid #829b91;
+  outline-offset: -3px;
+}
