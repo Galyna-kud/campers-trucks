@@ -40,6 +40,7 @@ git clone https://github.com/Galyna-kud/campers-trucks.git
 cd campers-trucks
 npm install
 npm run dev
+````
 
 🌐 Live Demo
 
