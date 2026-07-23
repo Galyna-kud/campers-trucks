@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚐 Campers Trucks
 
-## Getting Started
+A modern web application for searching and renting campers. Users can browse available vehicles, filter the catalog, view detailed information, and submit booking requests through an intuitive interface.
 
-First, run the development server:
+## ✨ Key Features
+
+- Browse a catalog of available campers
+- Filter campers by:
+  - Location
+  - Vehicle type
+  - Transmission
+  - Engine type
+- View detailed camper information
+- Image gallery for each camper
+- Online booking form with validation
+- Toast notifications for user actions
+- Responsive design for desktop and mobile devices
+- Loading, error, and empty state handling
+
+## 🛠️ Built With
+
+- Next.js
+- React
+- TypeScript
+- Axios
+- TanStack Query
+- Formik
+- Yup
+- Swiper
+- React Hot Toast
+- React Icons
+- CSS Modules
+
+## 🚀 Installation
+
+Clone the repository and install dependencies:
 
 ```bash
+git clone https://github.com/Galyna-kud/campers-trucks.git
+cd campers-trucks
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🌐 Live Demo
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+📡 API
 
-To learn more about Next.js, take a look at the following resources:
+https://campers-api.goit.study
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+👩‍💻 Author
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Galyna Kud

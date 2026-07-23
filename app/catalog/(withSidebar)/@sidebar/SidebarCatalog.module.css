@@ -1,0 +1,29 @@
+.container {
+  position: relative;
+}
+
+.btnFilters {
+  display: block;
+}
+
+@media only screen and (min-width: 1440px) {
+  .btnFilters {
+    display: none;
+  }
+}
+
+.filtersWrapper {
+  position: absolute;
+  display: none;
+}
+
+.filtersWrapper.isOpen {
+  display: block;
+}
+
+@media only screen and (min-width: 1440px) {
+  .filtersWrapper {
+    position: static;
+    display: block;
+  }
+}
