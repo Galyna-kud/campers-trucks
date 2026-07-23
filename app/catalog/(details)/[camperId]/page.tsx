@@ -20,7 +20,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const description = camper.description || "";
     const mainImage =
       camper.gallery?.[0]?.original ||
-      "https://travel-trucks-ebon-alpha.vercel.app/img/bg-img.jpg";
+      "https://campers-trucks.vercel.app/img/bg-img.jpg";
 
     return {
       title: `${camper.name} | TravelTrucks`,
@@ -32,7 +32,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       openGraph: {
         title: camper.name,
         description: description.slice(0, 160),
-        url: `https://travel-trucks-ebon-alpha.vercel.app/campers/${camperId}`,
+        url: `https://campers-trucks.vercel.app/campers/${camperId}`,
         siteName: "TravelTrucks",
         type: "website",
         images: [

@@ -13,7 +13,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("http://localhost:3000"), 
+  metadataBase: new URL("https://campers-trucks.vercel.app/"), 
   title: "Campers Trucks | Camper Rental Service",
   description:
     "Browse and rent modern campers for your next adventure. Choose from a wide selection of fully equipped camper vans and motorhomes.",
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     title: "Campers Trucks | Camper Rental Service",
     description:
       "Explore our camper catalog and find the perfect vehicle for your next road trip.",
-    url: "/", 
+    url: "https://campers-trucks.vercel.app/", 
     siteName: "Campers Trucks",
     images: [
       {

@@ -1,25 +1,22 @@
 .container {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  padding: 16px 24px;
-  max-width: 375px;
   width: 100%;
+}
+
+.container .btnLoadMore {
+  border: 1px solid #dadde1;
+  background-color: transparent;
   margin: 0 auto;
+
+  color: #101828;
+  transition: background-color 250ms ease;
 }
 
-@media only screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-    padding: 24px;
-  }
+.container .btnLoadMore:hover,
+.container .btnLoadMore:focus {
+  border-color: #6d7b75;
+  background-color: transparent;
 }
 
-@media only screen and (min-width: 1440px) {
-  .container {
-    max-width: 1440px;
-    flex-direction: row;
-    padding: 48px 64px;
-    gap: 65px;
-  }
+.noResults {
+  padding: 24px;
 }
